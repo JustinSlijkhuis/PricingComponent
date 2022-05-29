@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale = 1.0">
     <title>Document</title>
     <link rel="stylesheet" href="pricing.css">
 </head>
@@ -14,20 +14,21 @@
     <div class="sub-text-h1">Sign-up for our 30-day trial. No credit card required.</div>
     <div class="pricing-container">
         <div class="top-pricing">
-            <small class="pageview-size">100k PAGEVIEWS</small>
-            <div>
+            <small class="pageview-size">100K PAGEVIEWS</small>
+            <div class="phone-flex-pricing">
                 <b class="money-size">$16.00</b><small class="month-view">/month</small>
             </div>
         </div>
         <input type="range" min="1" max="5" value="3" class="slider">
         <div class="checkmark">
-            <small>Monthly Billing</small>
+            <small class="slider-switch-text">Monthly Billing</small>
             <label class="switch">
                 <input type="checkbox">
                 <span class="slider-switch round"></span>
             </label>
-            <small>Yearly Billing</small>
-            <small class="discount-info">25% discount</small>
+            <small class="slider-switch-text">Yearly Billing</small>
+            <small class="discount-info phone-off">25% discount</small>
+            <small class="discount-info phone-on">-25%</small>
         </div>
         <hr class="line">
         <div class="trial-info">
