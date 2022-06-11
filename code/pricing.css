@@ -9,6 +9,7 @@
 html, body {
     height: 100%;
     overflow-x: hidden;
+    max-width: 100%;
     background-color: #fafafa;
     margin: 0;
 }
@@ -229,7 +230,7 @@ html, body {
         border-radius: 8px;
         border-color: white;
         background-color: white;
-        height: 55%;
+        height: 450px;
         position: absolute;
         width: 85%;
         top: 220px;
